@@ -1,0 +1,197 @@
+body {
+    background-color: #F8F7F2;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+* {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.container {
+    padding: 10px;
+    width: 100%;
+    
+}
+
+.container .container_content{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    /* display: none; */
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    list-style: none;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+
+
+#about {
+    padding: 50px 0px;
+    color: black;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: wrap; */
+  
+}
+
+.rows {
+    display: flex;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+  
+}
+.rows .contact2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.about-column1{
+    flex-basis: 35%;
+}
+.about-column2{
+    flex-basis: 50%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.Sub-Title{
+    font-size: 60px;
+    font-weight: 600;
+    color: black;
+}
+#Skills{
+    padding: 0px ;
+}
+.skill_content{
+    height: 80vh;
+}
+.skill-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.skill-list div {
+    background: #F6EEE9;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: backround 0.5s, transform 0.5s;
+
+}
+.skill-list div i {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.skill-list div h2{
+    font-size: 30 px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.skill-list div:hover{
+    background-color: #CAC3B8;
+    transform: translateY(-10px);
+}
+#Contact{
+    padding: 50px;
+}
+.contact1{
+flex-basis: 45%;
+}
+.contact2{
+    margin-top: 0px;
+   
+    flex-basis: 45%;
+}
+.contact2 p {
+    margin-top: 30px;
+}
+.contact2 p i {
+    margin-right : 15px;
+    font-size: 25px;
+}
+.social-icons {
+margin-top: 30px;
+}
+.social-icons a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    display: inline-block;
+}
+#Projects {
+    padding: 20px 30px;
+  }
+  
+  .project-content {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .project {
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .projects-images {
+    flex-basis: 50%;
+  }
+  
+  .project-descriptions {
+    flex-basis: 50%;
+  }
+  
+  .project-descriptions h3 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  
+  .project-descriptions {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 50px;
+  }
+  
+  .project-descriptions div {
+    background: #F6EEE9;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+    margin-bottom: 50px;
+  }
+  .project-descriptions div:hover{
+    background-color: #CAC3B8;
+    transform: translateX(-10px);
+    margin: 30px 0;
+}
+  
+
